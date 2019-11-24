@@ -1,9 +1,4 @@
-# appTwo
-This is our project repo
+# DEBUGGER
 
-#Database Configuration in .env file as
-DB_USERNAME=
-DB_PASSWORD=
-DB_DATABASE=
-DB_HOST=
+More info on the game to come 
 
