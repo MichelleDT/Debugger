@@ -1,0 +1,244 @@
+body {
+    background: #1a1a1a;
+    color: white !important;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/* COLOURS */
+
+#loginAccount {
+    background-image: url('../src/staticBG.gif');
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+}
+
+#leaderboard {
+    background-image: url('../src/staticBG.gif');
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+}
+
+.teal {
+    color: #1fe08d;
+}
+
+.border {
+    border: 1px solid #1e1e1e !important;
+}
+
+td,
+th {
+    border: 3px solid #1e1e1e !important;
+}
+
+
+/* FONTS */
+
+h1,
+h2,
+h3,
+p,
+label,
+button,
+td,
+tr,
+th,
+canvas {
+    font-family: 'Press Start 2P', cursive !important;
+}
+
+h3,
+label {
+    font-size: 1em;
+}
+
+
+/* SECTIONS */
+
+#nav {
+    position: relative;
+    z-index: 3;
+}
+
+#game-canvas {
+    width: 500px;
+    height: 500px;
+    box-shadow: -10px 10px 8px rgb(20, 20, 20);
+    transition: 1s ease;
+}
+
+#game-canvas:hover {
+    transform: scale(1.1);
+}
+
+#keys-r {
+    position: relative;
+}
+
+#keys-l {
+    position: relative;
+}
+
+aside.right {
+    position: absolute;
+    top: 95px;
+    left: 325px;
+    z-index: 5;
+}
+
+aside.left {
+    position: absolute;
+    bottom: -250px;
+    right: 255px;
+    z-index: 6;
+}
+
+header {
+    position: absolute;
+    bottom: 285px;
+}
+
+div#score {
+    position: absolute;
+    top: 300px;
+}
+
+table {
+    background: rgb(31, 224, 140, 0.2);
+    backdrop-filter: blur(2.5) !important;
+}
+
+
+/* CONTROLS RIGHT SCREEN */
+
+#contain-r {
+    position: relative;
+    width: 200px;
+    height: 115px;
+}
+
+img.arrows {
+    width: 60px;
+    position: absolute;
+    z-index: 3;
+}
+
+.a1 {
+    top: 0;
+    left: 65px;
+}
+
+.a2 {
+    left: 0;
+    bottom: 0;
+}
+
+.a3 {
+    left: 65px;
+    bottom: 0;
+}
+
+.a4 {
+    left: 130px;
+    bottom: 0;
+}
+
+.b1 {
+    top: 0;
+    left: 65px;
+}
+
+.b2 {
+    left: 0;
+    bottom: 0;
+}
+
+.b3 {
+    left: 65px;
+    bottom: 0;
+}
+
+.b4 {
+    left: 130px;
+    bottom: 0;
+}
+
+
+/* CONTROLS LEFT SCREEN */
+
+img.keys {
+    width: 60px;
+    position: absolute;
+    z-index: 5;
+}
+
+img.enter {
+    height: 60px;
+    position: absolute;
+    z-index: 5;
+}
+
+#contain-l {
+    position: relative;
+    width: 200px;
+    height: 415px;
+}
+
+.t-1 {
+    position: absolute;
+    right: 60px;
+    bottom: 0;
+}
+
+.k-1a {
+    right: 40px;
+    bottom: 45px;
+}
+
+.k-2a {
+    right: 110px;
+    bottom: 45px;
+}
+
+.k-1b {
+    right: 40px;
+    bottom: 45px;
+}
+
+.k-2b {
+    right: 110px;
+    bottom: 45px;
+}
+
+.t-2 {
+    position: absolute;
+    right: 60px;
+    bottom: 110px;
+}
+
+.k-3a {
+    right: 38px;
+    bottom: 155px;
+}
+
+.k-3b {
+    right: 38px;
+    bottom: 155px;
+}
+
+.t-3 {
+    position: absolute;
+    right: 45px;
+    bottom: 225px;
+}
+
+.k-4a {
+    right: 73px;
+    bottom: 275px;
+}
+
+.k-4b {
+    right: 73px;
+    bottom: 275px;
+}

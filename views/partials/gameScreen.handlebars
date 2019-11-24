@@ -1,0 +1,33 @@
+<div style="height: 80vh;" class="row d-flex align-items-center">
+
+	{{!-- Main Display --}}
+	<main class="w-100 d-flex justify-content-center game-content">
+		{{!-- GAME SCRENN --}}
+		<div class="game-main"></div>
+		<img id="loading" src="/src/loading.gif">
+	</main>
+
+	{{!-- Controls + Game Information --}}
+	<main class="w-100 position-absolute d-flex justify-content-center">
+
+		{{!-- User Name --}}
+		<header class="user-header">
+			<h3>Hey, <span class="teal game-user"></span></h3>
+		</header>
+
+		{{!-- Right Keyboard Controls --}}
+		<div id="keys-r">
+			{{> keysRight}}
+		</div>
+
+		{{!-- Left Keyboard Controls --}}
+		<div id="keys-l">
+			{{> keysLeft}}
+		</div>
+
+		{{!-- User Score --}}
+		<div id="score">
+			<h3><span>Score: </span> <span class="teal score-update">0000</span></h3>
+		</div>
+	</main>
+</div>
