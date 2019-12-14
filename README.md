@@ -1,9 +1,9 @@
-# appTwo
-This is our project repo
+# DEBUGGER
 
-#Database Configuration in .env file as
-DB_USERNAME=
-DB_PASSWORD=
-DB_DATABASE=
-DB_HOST=
+More info on the game to come 
 
+CURRENT WORKING GROUP DEPLOYMENT 
+https://debugger-42069.herokuapp.com/
+
+OWN DEPLOYMENT TO FIX 
+https://mysterious-falls-79493.herokuapp.com/
